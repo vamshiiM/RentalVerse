@@ -1,0 +1,24 @@
+.Navbar{
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 4%;
+}
+
+.logo{
+    width:max(20%,80px);
+    /* border: 10px solid black; */
+}
+.profile_pic{
+    width:40px;
+    border: 2px solid black;
+    border-radius: 100px;
+    
+}
+
+.empty{
+    /* border:10px solid black; */
+    width:60%;
+
+}
