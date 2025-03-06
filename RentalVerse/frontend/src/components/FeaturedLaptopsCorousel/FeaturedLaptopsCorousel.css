@@ -1,0 +1,75 @@
+.featured-carousel {
+    padding: 40px; /* Increased padding for a spacious layout */
+    text-align: center;
+    background-color: #f9f9f9; /* Light background to make items pop */
+    border-radius: 10px; /* Rounded corners for the carousel */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px;
+    scrollbar-width: thin; /* For Firefox: make scrollbar thinner */
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.carousel-item {
+    min-width: 220px; /* Slightly wider item */
+    margin: 0 15px; /* Increased spacing between items */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px; /* More padding for better item presentation */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for effect */
+    transition: transform 0.2s, box-shadow 0.3s; /* Smooth shadow transition */
+    background-color: white; /* Item background color */
+}
+
+.carousel-item img {
+    max-width: 100%;
+    border-radius: 8px; /* Match border radius of the item */
+}
+
+.carousel-item:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.price {
+    font-weight: bold;
+    color: #e67e22; /* Example price color */
+    font-size: 1.2em; /* Larger font size for prices */
+}
+
+.add-to-cart-btn {
+    background-color: #e67e22; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 12px 20px; /* Increased padding for buttons */
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #d35400; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .carousel-item {
+        min-width: 160px; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-item {
+        min-width: 120px; /* Further adjustment for very small screens */
+    }
+}

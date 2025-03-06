@@ -1,0 +1,134 @@
+/* LaptopDetails Modal */
+.laptop-details-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Stronger blur effect for more emphasis */
+    animation: fadeIn 0.5s ease;
+    overflow: hidden; /* Prevent scrolling behind modal */
+  }
+  
+  /* Modal Content Box */
+  .laptop-details-content {
+    background: linear-gradient(145deg, #fff, #f0f0f0); /* Soft gradient background */
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 650px;
+    width: 90%;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3); /* Deep shadow for a floating effect */
+    text-align: center;
+    position: relative;
+    animation: slideUp 0.5s ease; /* Animation for the modal */
+    border: 2px solid #e0e0e0;
+    transform: perspective(600px) rotateX(10deg); /* 3D perspective effect */
+    transition: transform 0.4s ease-out;
+  }
+  
+  .laptop-details-content:hover {
+    transform: perspective(600px) rotateX(0); /* Remove the 3D effect on hover */
+  }
+  
+  /* Laptop Image Styling */
+  .laptop-details-image {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Add shadow to image */
+  }
+  
+  .laptop-details-image:hover {
+    transform: scale(1.08); /* Slightly stronger zoom effect on hover */
+  }
+  
+  /* Close Button Styling */
+  .laptop-details-close {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.4);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .laptop-details-close:hover {
+    background-color: #cc0000;
+    transform: rotate(45deg) scale(1.2); /* Add rotation and scale on hover */
+  }
+  
+  /* Text and Heading Styling */
+  h2 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 25px;
+    letter-spacing: 1px; /* Add spacing between letters for a modern look */
+  }
+  
+  p {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Price Styling */
+  .laptop-details-price {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #444;
+    margin-top: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  /* Button Styling for Modal */
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 14px 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 128, 0, 0.2); /* Soft shadow for button */
+  }
+  
+  button:hover {
+    background-color: #43a047;
+    transform: scale(1.1);
+    box-shadow: 0 12px 25px rgba(0, 128, 0, 0.3); /* Stronger shadow on hover */
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(80px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

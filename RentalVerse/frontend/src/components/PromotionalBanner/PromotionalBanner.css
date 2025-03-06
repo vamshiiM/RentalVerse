@@ -1,0 +1,55 @@
+.promotional-banner {
+    background-image: url('https://images.unsplash.com/photo-1522791194246-7129e9750305?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Background image */
+    background-size: cover; /* Cover the entire banner area */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    margin: 0; /* Remove margin */
+    position: relative; /* Position relative for inner content */
+    height: 400px; /* Set a fixed height for the banner */
+}
+
+/* Content container */
+.banner-content {
+    position: absolute; /* Position absolute for text positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Translate to truly center */
+    z-index: 1; /* Ensure content is above the background */
+}
+
+/* Title styling */
+.banner-content h2 {
+    font-size: 2.5rem; /* Large font size for title */
+}
+
+/* Paragraph styling */
+.banner-content p {
+    font-size: 1.2rem; /* Increased font size for readability */
+}
+
+/* Button styling */
+.explore-btn {
+    background-color: transparent; /* Transparent button */
+    color: white; /* Text color */
+    border: 2px solid white; /* White border */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.explore-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light overlay on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .banner-content h2 {
+        font-size: 2rem; /* Smaller title for smaller screens */
+    }
+
+    .banner-content p {
+        font-size: 1rem; /* Smaller paragraph for smaller screens */
+    }
+}
