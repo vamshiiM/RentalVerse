@@ -62,9 +62,13 @@ npm run dev
 ## 📂 Project Structure
 
 -RentalVerse/
+
 -├── frontend/        # Frontend React app
+
 -├── backend/        # Backend API
+
 -├── admin/        # DB and environment config
+
 -└── README.md
 
 
