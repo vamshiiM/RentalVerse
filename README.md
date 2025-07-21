@@ -33,9 +33,11 @@ RentalVerse/
 ├── admin/        # DB and environment config
 └── README.md
 
+```
 Members:
 
 Sakshi Said
 Simran Yelave
 Adarsh Mishra 
 Vamshi Marri 
+```
