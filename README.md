@@ -59,6 +59,7 @@ cd admin
 npm run dev 
 ```
 
+## 📂 Project Structure
 
 RentalVerse/
 ├── frontend/        # Frontend React app
