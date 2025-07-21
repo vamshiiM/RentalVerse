@@ -27,17 +27,53 @@ Database: MongoDB
 
 Authentication: JWT-based user login
 
+# Commands to run the application
+
+#To run the frontend 
+#first 
 ```
+cd frontend
+```
+#run the frontend 
+```
+npm run dev 
+```
+
+#To run the backend 
+#first
+```
+cd backend
+```
+#run the backend 
+```
+node server.js
+```
+
+#To run the admin/seller
+#first 
+```
+cd admin
+```
+#run the admin 
+```
+npm run dev 
+```
+
+
 RentalVerse/
 ├── frontend/        # Frontend React app
 ├── backend/        # Backend API
 ├── admin/        # DB and environment config
 └── README.md
-```
 
-Members:
 
-Sakshi Said
-Simran Yelave
-Adarsh Mishra 
-Vamshi Marri 
+
+#Members:
+
+-Sakshi Said
+
+-Simran Yelave
+
+-Adarsh Mishra 
+
+-Vamshi Marri 
