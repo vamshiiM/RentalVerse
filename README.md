@@ -14,7 +14,7 @@ RentalVerse is a web application that allows users to browse, select, and rent l
 
 ⚙️ Admin panel to manage inventory and orders
 
-![hemlo](<Screenshot 2025-07-21 200136.png>)1
+![hemlo](<Screenshot 2025-07-21 200136.png>)
 
 ![hemlo1](image.png)
 
@@ -27,17 +27,17 @@ Database: MongoDB
 
 Authentication: JWT-based user login
 
+```
 RentalVerse/
 ├── frontend/        # Frontend React app
 ├── backend/        # Backend API
 ├── admin/        # DB and environment config
 └── README.md
-
 ```
+
 Members:
 
 Sakshi Said
 Simran Yelave
 Adarsh Mishra 
 Vamshi Marri 
-```
