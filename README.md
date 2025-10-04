@@ -32,7 +32,6 @@ Authentication: JWT-based user login
 
 # To run the frontend 
 
-# first 
 ```
 cd frontend
 ```
@@ -43,7 +42,6 @@ npm run dev
 
 # To run the backend 
 
-# first
 ```
 cd backend
 ```
@@ -58,7 +56,7 @@ node server.js
 ```
 cd admin
 ```
-#run the admin 
+# run the admin 
 ```
 npm run dev 
 ```
