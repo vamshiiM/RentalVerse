@@ -30,28 +30,31 @@ Authentication: JWT-based user login
 
 # Commands to run the application
 
-#To run the frontend 
-#first 
+# To run the frontend 
+
+# first 
 ```
 cd frontend
 ```
-#run the frontend 
+# run the frontend 
 ```
 npm run dev 
 ```
 
-#To run the backend 
-#first
+# To run the backend 
+
+# first
 ```
 cd backend
 ```
-#run the backend 
+# run the backend 
 ```
 node server.js
 ```
 
-#To run the admin/seller
-#first 
+# To run the admin/seller
+
+# first 
 ```
 cd admin
 ```
@@ -64,22 +67,22 @@ npm run dev
 
 -RentalVerse/
 
--├── frontend/        # Frontend React app
+-├── frontend/        -- Frontend React app
 
--├── backend/        # Backend API
+-├── backend/        -- Backend API
 
--├── admin/        # DB and environment config
+-├── admin/        -- DB and environment config
 
 -└── README.md
 
 
 
-#Members:
+## Members:
 
--Sakshi Said
+- Sakshi Said
 
--Simran Yelave
+- Simran Yelave
 
--Adarsh Mishra 
+- Adarsh Mishra 
 
--Vamshi Marri 
+- Vamshi Marri 
